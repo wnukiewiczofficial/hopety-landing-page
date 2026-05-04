@@ -70,7 +70,7 @@ export default function WaitlistForm() {
 					<div className="py-4">
 						<div className="text-5xl mb-4">🎉</div>
 						<h3 className="text-xl font-bold text-text mb-2">Zapisano!</h3>
-						<p className="text-text/60">Dziękujemy! Damy Ci znać, gdy Hopety będzie gotowe do testów.</p>
+						<p className="text-text/60">Witamy w Hopety! Niedługo zostaniesz poinformowany o dalszych krokach.</p>
 					</div>
 				) : (
 					<form onSubmit={handleSubmit} noValidate>
