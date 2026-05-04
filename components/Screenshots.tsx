@@ -10,7 +10,7 @@ interface Screenshot {
 }
 
 const screenshots: Screenshot[] = [
-	{ src: "/screens/screen-today.png", alt: "Hopety — Panel dziś", label: "Panel dziś" },
+	{ src: "/screens/screen-today.png", alt: "Hopety — Panel dziś", label: "Panel „Dziś”" },
 	{ src: "/screens/screen-pets.png", alt: "Hopety — Twoje pupile", label: "Twoje pupile" },
 	{ src: "/screens/screen-tasks.png", alt: "Hopety — Planowanie zadań", label: "Planowanie zadań" },
 	{ src: "/screens/screen-pharmacy.png", alt: "Hopety — Apteczka", label: "Apteczka" },

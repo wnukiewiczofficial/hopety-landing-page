@@ -31,25 +31,36 @@ export default function Hero() {
 					transition={{ duration: 0.6, ease: "easeOut" }}
 					className="flex-1 text-center md:text-left"
 				>
-					<h1 className="text-4xl md:text-6xl font-extrabold text-text tracking-wide m-4 md:mb-6">
+					<h1 className="text-4xl md:text-6xl font-extrabold text-text tracking-wide md:tracking-normal mb-4 md:mb-6">
 						Zadbaj o życie pupila z <span className="text-primary">Hopety</span>.
 					</h1>
 					<p className="text-lg md:text-xl text-text/60 font-medium mb-10 max-w-lg mx-auto md:mx-0 leading-relaxed">
 						Niezastąpiona pomoc w podawaniu leków i codziennej opiece nad Twoim pupilem.
 					</p>
-					<div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-						<div className="flex mx-auto md:mx-0 items-center gap-3 bg-text text-white rounded-xl px-12 md:px-6 py-3.5 font-semibold">
-							<AppleIcon />
-							<div className="text-left">
-								<div className="text-[10px] leading-none opacity-70 mb-0.5">Dostępne dla</div>
-								<div className="text-sm font-bold leading-none">iOS</div>
+					<div className="flex flex-col items-center gap-4 mb-8 md:inline-flex md:self-start">
+						<a
+							href="#waitlist"
+							className="self-stretch inline-flex items-center justify-center gap-2 bg-primary text-white rounded-2xl px-8 py-4 font-bold text-lg shadow-lg shadow-primary/30 hover:bg-primary/90 hover:shadow-primary/50 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+						>
+							<svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 shrink-0" aria-hidden>
+								<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" />
+							</svg>
+							Wypróbuj aplikację
+						</a>
+						<div className="flex-1 flex gap-4 justify-center md:justify-start mt-4 md:mt-0">
+							<div className="flex-1 flex mx-auto md:mx-0 items-center gap-3 bg-text text-white rounded-xl px-8 py-3.5 font-semibold">
+								<AppleIcon />
+								<div className="text-left">
+									<div className="text-[10px] leading-none opacity-70 mb-0.5">Dostępne dla</div>
+									<div className="text-sm font-bold leading-none">iOS</div>
+								</div>
 							</div>
-						</div>
-						<div className="flex mx-auto md:mx-0 items-center gap-3 bg-text text-white rounded-xl px-12 md:px-6 py-3.5 font-semibold">
-							<GooglePlayIcon />
-							<div className="text-left">
-								<div className="text-[10px] leading-none opacity-70 mb-0.5">Dostępne dla</div>
-								<div className="text-sm font-bold leading-none">Android</div>
+							<div className="flex-1 flex mx-auto md:mx-0 items-center gap-3 bg-text text-white rounded-xl px-8 py-3.5 font-semibold">
+								<GooglePlayIcon />
+								<div className="text-left">
+									<div className="text-[10px] leading-none opacity-70 mb-0.5">Dostępne dla</div>
+									<div className="text-sm font-bold leading-none">Android</div>
+								</div>
 							</div>
 						</div>
 					</div>

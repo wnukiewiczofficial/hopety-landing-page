@@ -12,7 +12,7 @@ interface Feature {
 const features: Feature[] = [
 	{
 		icon: HouseHeart,
-		title: 'Panel "Dziś"',
+		title: "Panel „Dziś”",
 		description: "Widok wszystkich zadań zaplanowanych na bieżący dzień.",
 	},
 	{

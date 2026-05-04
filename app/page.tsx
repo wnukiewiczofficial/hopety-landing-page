@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
 import Features from "@/components/Features";
 import Screenshots from "@/components/Screenshots";
 import WaitlistForm from "@/components/WaitlistForm";
@@ -13,6 +14,7 @@ export default function Home() {
 				<Image src="/hopety-logo.svg" alt="Hopety" width={76} height={64} className="object-contain" priority />
 			</div>
 			<Hero />
+			<About />
 			<Features />
 			<Screenshots />
 			<WaitlistForm />
