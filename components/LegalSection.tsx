@@ -102,7 +102,7 @@ export default function LegalSection() {
 				className="text-center mb-10"
 			>
 				<h2 className="text-3xl md:text-5xl font-extrabold text-text">
-					Przeczytaj nasze <span className="text-primary">zasady.</span>
+					Przeczytaj nasze <span className="text-primary">zasady</span>.
 				</h2>
 			</motion.div>
 
@@ -115,13 +115,13 @@ export default function LegalSection() {
 			>
 				<button
 					onClick={() => setActiveModal("privacy")}
-					className="border-2 border-primary text-primary bg-white rounded-xl px-8 py-3 font-semibold hover:bg-primary hover:text-white transition-colors"
+					className="cursor-pointer border-2 border-primary text-primary bg-white rounded-xl px-8 py-3 font-semibold hover:bg-primary hover:text-white transition-colors"
 				>
 					Polityka prywatności
 				</button>
 				<button
 					onClick={() => setActiveModal("terms")}
-					className="border-2 border-primary text-primary bg-white rounded-xl px-8 py-3 font-semibold hover:bg-primary hover:text-white transition-colors"
+					className="cursor-pointer border-2 border-primary text-primary bg-white rounded-xl px-8 py-3 font-semibold hover:bg-primary hover:text-white transition-colors"
 				>
 					Regulamin
 				</button>

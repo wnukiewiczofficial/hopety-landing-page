@@ -16,13 +16,16 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
 	metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://hopety.pl"),
-	title: "Hopety — aplikacja dla właścicieli psów i kotów",
-	description:
-		"Hopety to aplikacja mobilna łącząca plan dnia, leki, zadania i historię zdrowia Twojego pupila w jednym miejscu. Dla psów i kotów.",
+	icons: {
+		icon: [{ url: "/favicon.png", type: "image/png" }],
+		apple: [{ url: "/favicon.png", type: "image/png" }],
+	},
+	title: "Hopety",
+	description: "Hopety to aplikacja mobilna łącząca plan dnia, leki, zadania i historię zdrowia Twojego pupila w jednym miejscu.",
 	keywords: ["aplikacja dla psa", "aplikacja dla kota", "opieka nad pupilem", "planowanie zadań pupil", "leki dla psa", "hopety"],
 	openGraph: {
-		title: "Hopety — zadbaj o pupila bez stresu",
-		description: "Plan dnia, apteczka, zadania i historia zdrowia Twojego psa lub kota — wszystko w jednym miejscu.",
+		title: "Hopety, zadbaj o życie pupila bez stresu",
+		description: "Plan dnia, apteczka, zadania i historia zdrowia Twojego psa lub kota, wszystko w jednym miejscu.",
 		url: "https://hopety.pl",
 		siteName: "Hopety",
 		images: [{ url: "/og-image.png", width: 1200, height: 630 }],
@@ -31,8 +34,8 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Hopety — aplikacja dla właścicieli psów i kotów",
-		description: "Zadbaj o pupila. Bez stresu.",
+		title: "Hopety, aplikacja dla właścicieli psów i kotów",
+		description: "Zadbaj o życie pupila, bez stresu.",
 	},
 	robots: {
 		index: true,
