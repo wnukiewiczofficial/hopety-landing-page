@@ -7,15 +7,46 @@ interface Screenshot {
 	src: string;
 	alt: string;
 	label: string;
+	description: string;
 }
 
 const screenshots: Screenshot[] = [
-	{ src: "/screens/screen-today.png", alt: "Hopety — Panel dziś", label: "Panel „Dziś”" },
-	{ src: "/screens/screen-pets.png", alt: "Hopety — Twoje pupile", label: "Twoje pupile" },
-	{ src: "/screens/screen-tasks.png", alt: "Hopety — Planowanie zadań", label: "Planowanie zadań" },
-	{ src: "/screens/screen-pharmacy.png", alt: "Hopety — Apteczka", label: "Apteczka" },
-	{ src: "/screens/screen-summary.png", alt: "Hopety — Podsumowanie zadań", label: "Podsumowanie zadań" },
-	{ src: "/screens/screen-assistant.png", alt: "Hopety — Asystent Pupila", label: "Asystent Pupila" },
+	{
+		src: "/screens/screen-today.png",
+		alt: "Hopety. Panel Dziś",
+		label: "Panel Dziś",
+		description: "Wszystkie zadania pupila na dziś w jednym miejscu",
+	},
+	{
+		src: "/screens/screen-pets.png",
+		alt: "Hopety. Twoje pupile",
+		label: "Twoje pupile",
+		description: "Profil pupila z historią i kluczowymi danymi",
+	},
+	{
+		src: "/screens/screen-tasks.png",
+		alt: "Hopety. Planowanie zadań",
+		label: "Planowanie zadań",
+		description: "Zadania zsynchronizowane dla całej rodziny",
+	},
+	{
+		src: "/screens/screen-pharmacy.png",
+		alt: "Hopety. Apteczka",
+		label: "Apteczka",
+		description: "Leki i dawkowanie pod pełną kontrolą",
+	},
+	{
+		src: "/screens/screen-summary.png",
+		alt: "Hopety. Podsumowanie zadań",
+		label: "Podsumowanie zadań",
+		description: "Historia wszystkich wykonanych czynności",
+	},
+	{
+		src: "/screens/screen-assistant.png",
+		alt: "Hopety. Asystent Pupila",
+		label: "Asystent Pupila",
+		description: "Asystent AI, który upraszcza opiekę",
+	},
 ];
 
 export default function Screenshots() {
@@ -43,7 +74,12 @@ export default function Screenshots() {
 							viewport={{ once: true, margin: "-40px" }}
 							transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.08 }}
 						>
-							<PhoneMockup src={screen.src} alt={screen.alt} label={screen.label} />
+							<PhoneMockup
+								src={screen.src}
+								alt={screen.alt}
+								label={screen.label}
+								description={screen.description}
+							/>
 						</motion.div>
 					))}
 				</div>

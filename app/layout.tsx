@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 		icon: [{ url: "/favicon.png", type: "image/png" }],
 		apple: [{ url: "/favicon.png", type: "image/png" }],
 	},
-	title: "Hopety",
-	description: "Hopety to aplikacja mobilna łącząca plan dnia, leki, zadania i historię zdrowia Twojego pupila w jednym miejscu.",
-	keywords: ["aplikacja dla psa", "aplikacja dla kota", "opieka nad pupilem", "planowanie zadań pupil", "leki dla psa", "hopety"],
+	title: "Hopety. Wspólna opieka nad pupilem",
+	description: "Hopety synchronizuje zadania, leki i codzienną opiekę nad pupilem między wszystkimi urządzeniami w gospodarstwie. Każdy domownik wie, co już zrobiono.",
+	keywords: ["aplikacja dla psa", "aplikacja dla kota", "opieka nad pupilem", "wspólna opieka nad zwierzęciem", "leki dla psa", "hopety", "aplikacja AI pupil"],
 	openGraph: {
-		title: "Hopety, zadbaj o życie Twojego pupila",
-		description: "Plan dnia, apteczka, zadania i historia zdrowia Twojego pupila, wszystko w jednym miejscu.",
+		title: "Hopety. Opieka nad pupilem dla całej rodziny",
+		description: "Zadania, leki i czynności zsynchronizowane między wszystkimi domownikami. Nikt nie zapomni o ważnej dawce.",
 		url: "https://hopety.pl",
 		siteName: "Hopety",
 		images: [{ url: "/og-image.png", width: 1200, height: 630 }],
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Hopety, aplikacja dla właścicieli pupili",
-		description: "Zadbaj o życie Twojego pupila.",
+		title: "Hopety. Wspólna opieka nad pupilem",
+		description: "Zsynchronizuj opiekę nad pupilem z całą rodziną. Leki, zadania, powiadomienia.",
 	},
 	robots: {
 		index: true,

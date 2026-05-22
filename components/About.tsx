@@ -1,6 +1,6 @@
 "use client";
 
-import { Bell, ListChecks, Pill, Scale, HeartPulse, ClipboardList } from "lucide-react";
+import { Bell, ListChecks, Pill, Scale, Sparkles, ClipboardList, Users } from "lucide-react";
 import { motion } from "motion/react";
 
 const highlights = [
@@ -13,7 +13,8 @@ const highlights = [
 	{
 		icon: Bell,
 		title: "Automatyczne przypomnienia",
-		description: "Hopety przypomni Ci o każdym leku i czynności we właściwym czasie, żebyś nigdy nie pominął ważnej dawki ani wizyty.",
+		description:
+			"Hopety przypomni każdemu domownikowi o leku i czynności we właściwym czasie. Wszyscy dostają powiadomienie. Nikt nie pominie ważnych zadań oraz wszyscy będą wiedzieć, kto co już zrobił.",
 	},
 	{
 		icon: Pill,
@@ -27,14 +28,15 @@ const highlights = [
 		description: "Regularnie rejestruj wagę pupila i obserwuj trendy w powiązaniu z historią zadań i wizyt weterynaryjnych.",
 	},
 	{
-		icon: HeartPulse,
-		title: "Stan fizjologiczny",
-		description: "Śledź parametry zdrowotne pupila i monitoruj jego samopoczucie na przestrzeni czasu dzięki dedykowanym zadaniom.",
+		icon: Sparkles,
+		title: "Asystent Pupila z AI",
+		description:
+			"Wbudowany asystent oparty o sztuczną inteligencję pomaga planować opiekę, analizować zdrowie pupila i upraszcza codzienne korzystanie z aplikacji.",
 	},
 	{
 		icon: ClipboardList,
 		title: "Historia medyczna i plan leczenia",
-		description: "Wszystkie zdarzenia medyczne, badania i zalecenia lekarza zebrane w jednym miejscu i dostępne w każdej chwili.",
+		description: "Wszystkie wydarzenia medyczne, badania i zalecenia lekarza zebrane w jednym miejscu i dostępne w każdej chwili.",
 	},
 ];
 
@@ -68,22 +70,29 @@ export default function About() {
 					Dlaczego <span className="text-primary">Hopety</span>?
 				</h2>
 				<p className="text-base md:text-lg text-text/60 font-medium max-w-2xl mx-auto leading-relaxed">
-					Codzienna opieka nad psem to nie tylko miłość, ale też dziesiątki drobnych obowiązków, które łatwo przeoczyć. Hopety powstało po
-					to, żebyś nigdy nie musiał trzymać tego wszystkiego wyłącznie w głowie. To asystent, który pomaga wtedy, kiedy najbardziej tego
-					potrzebujesz.
+					Codzienna opieka nad psem to nie tylko miłość, ale też dziesiątki drobnych obowiązków, które łatwo przeoczyć, szczególnie gdy
+					opiekuje się nim cała rodzina. Hopety synchronizuje wszystko między domownikami, żebyś nigdy nie musiał trzymać tego w głowie ani
+					pytać {"\u201E"}Kto już to zrobił?{"\u201D"}.
 				</p>
 			</motion.div>
 
 			<motion.div
-				initial={{ opacity: 0, y: 10 }}
+				initial={{ opacity: 0, y: 16 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				viewport={{ once: true, margin: "-60px" }}
-				transition={{ duration: 0.4, delay: 0.15, ease: "easeOut" }}
-				className="text-center mb-14"
+				transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
+				className="bg-primary rounded-2xl p-7 mb-10 flex flex-col items-center justify-center gap-5 text-center"
 			>
-				<span className="inline-block bg-primary/10 text-primary text-sm font-semibold px-6 py-4 rounded-full">
-					Projekt w aktywnym rozwoju. Kształtujemy aplikację razem z użytkownikami.
-				</span>
+				<div className="w-14 h-14 rounded-xl bg-white flex items-center justify-center text-primary shrink-0">
+					<Users className="w-8 h-8" strokeWidth={2} aria-hidden />
+				</div>
+				<div className="max-w-2xl">
+					<h3 className="text-xl font-bold text-white mb-2 text-balance">Opieka, którą dzieliecie się wszyscy</h3>
+					<p className="text-base text-white leading-relaxed">
+						Zadania, leki, ważenie i czynności pupila są współdzielone między urządzeniami wszystkich członków gospodarstwa. Gdy ktoś poda
+						lek lub wykona czynność, każdy dostaje powiadomienie w czasie rzeczywistym.
+					</p>
+				</div>
 			</motion.div>
 
 			<motion.div
@@ -99,13 +108,13 @@ export default function About() {
 						<motion.div
 							key={item.title}
 							variants={cardVariants}
-							className="bg-card rounded-2xl p-6 flex flex-col gap-4 items-center text-center sm:items-stretch sm:text-left"
+							className="bg-card rounded-2xl p-6 flex flex-col gap-4 items-center text-center"
 						>
-							<div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:gap-4 w-full">
+							<div className="flex flex-col items-center gap-3 w-full">
 								<div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
 									<Icon className="w-7 h-7" strokeWidth={2.2} aria-hidden />
 								</div>
-								<h3 className="text-base font-bold text-text mb-1">{item.title}</h3>
+								<h3 className="text-base font-bold text-text text-balance">{item.title}</h3>
 							</div>
 							<p className="text-sm text-text/60 leading-relaxed">{item.description}</p>
 						</motion.div>

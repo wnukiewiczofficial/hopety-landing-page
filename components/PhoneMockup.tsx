@@ -7,11 +7,12 @@ interface PhoneMockupProps {
 	src: string;
 	alt: string;
 	label?: string;
+	description?: string;
 	rotate?: boolean;
 	priority?: boolean;
 }
 
-export default function PhoneMockup({ src, alt, label, rotate = false, priority = false }: PhoneMockupProps) {
+export default function PhoneMockup({ src, alt, label, description, rotate = false, priority = false }: PhoneMockupProps) {
 	const [imgError, setImgError] = useState(false);
 
 	return (
@@ -34,6 +35,7 @@ export default function PhoneMockup({ src, alt, label, rotate = false, priority 
 				</div>
 			</div>
 			{label && <p className="text-sm text-center mt-4 text-text/60 font-medium">{label}</p>}
+		{description && <p className="text-xs text-center mt-1 text-text/40 leading-snug px-1">{description}</p>}
 		</div>
 	);
 }

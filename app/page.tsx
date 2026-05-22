@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Features from "@/components/Features";
 import Screenshots from "@/components/Screenshots";
 import WaitlistForm from "@/components/WaitlistForm";
 import LegalSection from "@/components/LegalSection";
@@ -15,7 +14,6 @@ export default function Home() {
 			</div>
 			<Hero />
 			<About />
-			<Features />
 			<Screenshots />
 			<WaitlistForm />
 			<LegalSection />

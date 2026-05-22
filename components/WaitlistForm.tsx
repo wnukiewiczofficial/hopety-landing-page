@@ -52,10 +52,10 @@ export default function WaitlistForm() {
 				className="text-center mb-10"
 			>
 				<h2 className="text-3xl md:text-5xl font-extrabold text-text">
-					Bądź <span className="text-primary">pierwszy</span>.
+					Zarezerwuj swoje <span className="text-primary">miejsce</span>.
 				</h2>
 				<p className="mt-4 text-lg text-text/60 font-medium max-w-lg mx-auto">
-					Zapisz się na wczesny dostęp i dołącz do grona, które zawsze będzie traktowane wyjątkowo.
+					Wczesny dostęp, wpływ na funkcje i zero spamu. Tylko dla tych, którzy zapisali się pierwsi.
 				</p>
 			</motion.div>
 
@@ -69,7 +69,7 @@ export default function WaitlistForm() {
 				{status === "success" ? (
 					<div className="py-4">
 						<div className="text-5xl mb-4">🎉</div>
-						<h3 className="text-xl font-bold text-text mb-2">Zapisano!</h3>
+						<h3 className="text-xl font-bold text-text mb-2">Jesteś z nami!</h3>
 						<p className="text-text/60">Witamy w Hopety! Niedługo zostaniesz poinformowany o dalszych krokach.</p>
 					</div>
 				) : (
@@ -104,9 +104,10 @@ export default function WaitlistForm() {
 									Wysyłam...
 								</>
 							) : (
-								"Zapisuję się"
+								"Chcę dołączyć"
 							)}
 						</button>
+						<p className="mt-3 text-xs text-text/40 text-center">Bezpiecznie i bez spamu. Możesz zrezygnować w dowolnym momencie.</p>
 					</form>
 				)}
 			</motion.div>
