@@ -1,6 +1,6 @@
 # Polityka Prywatności
 
-Niniejsza polityka prywatności dotyczy aplikacji Hopety (zwanej dalej „Aplikacją") na urządzenia mobilne, która została stworzona przez Dawida Wnukiewicza (zwanego dalej „Dostawcą Usług") jako usługa freemium. Na chwilę obecną Aplikacja jest udostępniana bezpłatnie wybranym użytkownikom. Usługa ta jest świadczona w stanie, w jakim się znajduje („AS IS").
+Niniejsza polityka prywatności dotyczy aplikacji Hopety (zwanej dalej „Aplikacją") na urządzenia mobilne, która została stworzona przez Dawida Wnukiewicza (zwanego dalej „Dostawcą Usług"). Aplikacja jest obecnie w pełni darmowa, natomiast w przyszłości mogą pojawić się funkcje płatne, o czym użytkownicy zostaną poinformowani z wyprzedzeniem. Usługa ta jest świadczona w stanie, w jakim się znajduje („AS IS").
 
 ---
 
@@ -29,29 +29,22 @@ Aplikacja może gromadzić automatycznie: typ urządzenia mobilnego, unikalny id
 
 Niniejsza Aplikacja nie gromadzi precyzyjnych informacji o lokalizacji urządzenia mobilnego użytkownika.
 
-## 6. Czy Aplikacja korzysta z technologii Sztucznej Inteligencji (AI)?
+## 6. Udostępnianie danych podmiotom trzecim
 
-Aplikacja wykorzystuje technologie Sztucznej Inteligencji (AI) w celu poprawy doświadczeń użytkownika. Przetwarzanie danych przez AI obejmuje:
+Do usług zewnętrznych przesyłane są wyłącznie zagregowane dane. Dostawca Usług może udostępniać dane osobowe wyłącznie w przypadkach opisanych w niniejszej polityce. Aplikacja korzysta z usług podmiotów trzecich posiadających własne polityki prywatności:
 
-- **Spersonalizowane treści** – AI może analizować wzorce użytkowania w celu dostarczania treści dostosowanych do preferencji użytkownika.
-- **Rekomendacje** – AI może sugerować funkcje lub treści na podstawie interakcji użytkownika.
-- **Zautomatyzowane funkcjonalności** – niektóre funkcje Aplikacji mogą być oparte na AI w celu automatyzacji zadań.
-
-Jeśli do przetwarzania przez AI wykorzystywani są zewnętrzni dostawcy modeli (podmioty przetwarzające), Dostawca Usług zawiera z nimi stosowne umowy powierzenia przetwarzania danych i dba o to, by przetwarzanie odbywało się zgodnie z RODO.
-
-## 7. Udostępnianie danych podmiotom trzecim
-
-Do usług zewnętrznych przesyłane są wyłącznie zagregowane, zanonimizowane dane. Dostawca Usług może udostępniać dane osobowe wyłącznie w przypadkach opisanych w niniejszej polityce. Aplikacja korzysta z usług podmiotów trzecich posiadających własne polityki prywatności:
-
-- [Expo](https://expo.io/privacy)
+- [Expo](https://expo.io/privacy) – narzędzie deweloperskie wykorzystywane w procesie budowania Aplikacji
+- [Supabase](https://supabase.com/privacy) – przechowywanie danych i funkcje serwerowe Aplikacji
+- [Apple](https://www.apple.com/legal/privacy/) – logowanie za pomocą konta Apple
+- [Google](https://policies.google.com/privacy) – logowanie za pomocą konta Google
 
 Dostawca Usług może ujawnić dane użytkownika gdy: (a) jest to wymagane przez prawo; (b) jest to konieczne do ochrony praw własnych lub bezpieczeństwa innych osób; (c) przekazuje je zaufanym podwykonawcom działającym w jego imieniu na podstawie umów powierzenia.
 
-## 8. Transfer danych poza Europejski Obszar Gospodarczy (EOG)
+## 7. Transfer danych poza Europejski Obszar Gospodarczy (EOG)
 
-W przypadku, gdy dane osobowe są przekazywane do państw spoza EOG (np. w związku z korzystaniem z usług dostawców technologicznych), Dostawca Usług zapewnia odpowiednie zabezpieczenia zgodne z art. 46 RODO, w szczególności stosowanie standardowych klauzul umownych zatwierdzonych przez Komisję Europejską. Informacje o konkretnych mechanizmach zabezpieczeń dostępne są na żądanie pod adresem hello@hopety.pl.
+Dane osobowe użytkowników są przechowywane i przetwarzane na serwerach zlokalizowanych na terenie Europejskiego Obszaru Gospodarczego (EOG). W przypadku, gdyby w przyszłości doszło do przekazania danych poza EOG, Dostawca Usług zapewni odpowiednie zabezpieczenia zgodne z art. 46 RODO.
 
-## 9. Prawa użytkownika
+## 8. Prawa użytkownika
 
 Przysługują Ci następujące prawa w związku z przetwarzaniem Twoich danych osobowych:
 
@@ -65,32 +58,34 @@ Przysługują Ci następujące prawa w związku z przetwarzaniem Twoich danych o
 
 Aby skorzystać z powyższych praw, skontaktuj się pod adresem: hello@hopety.pl. Odpowiedź zostanie udzielona w terminie do 30 dni od daty otrzymania żądania.
 
-## 10. Prawo do wniesienia skargi do organu nadzorczego
+## 9. Prawo do wniesienia skargi do organu nadzorczego
 
 Masz prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych. W Polsce jest nim Prezes Urzędu Ochrony Danych Osobowych (PUODO), ul. Stawki 2, 00-193 Warszawa, [www.uodo.gov.pl](https://www.uodo.gov.pl).
 
-## 11. Zasady retencji danych i zarządzanie informacjami
+## 10. Zasady retencji danych i zarządzanie informacjami
 
 Dostawca Usług będzie przechowywał dane podane przez użytkownika przez czas korzystania z Aplikacji oraz przez uzasadniony czas po jego zakończeniu (nie dłużej niż jest to niezbędne do celów, w których dane zostały zebrane). Dane gromadzone automatycznie będą przechowywane przez okres do 24 miesięcy, a następnie mogą być archiwizowane w formie zagregowanej. Jeśli chcesz usunąć swoje dane, skontaktuj się z nami pod adresem hello@hopety.pl.
 
-## 12. Prywatność dzieci
+## 11. Prywatność dzieci
 
-Aplikacja nie jest skierowana do osób poniżej 13. roku życia. Dostawca Usług nie gromadzi świadomie danych osobowych dzieci poniżej 13. roku życia. W przypadku wykrycia, że takie dane zostały przekazane, zostaną niezwłocznie usunięte. Rodzice lub opiekunowie mogą kontaktować się pod adresem hello@hopety.pl.
+Dostawca Usług nie weryfikuje wieku użytkowników. W przypadku uzyskania wiarygodnej informacji, że z Aplikacji korzysta dziecko poniżej wieku wymaganego do samodzielnego wyrażenia zgody na przetwarzanie danych, Dostawca Usług niezwłocznie usunie zgromadzone dane takiej osoby. Zgłoszenia można kierować na adres hello@hopety.pl.
 
-## 13. Bezpieczeństwo danych
+## 12. Bezpieczeństwo danych
 
 Dostawca Usług stosuje fizyczne, elektroniczne i proceduralne środki bezpieczeństwa w celu ochrony przetwarzanych danych. Dostęp do danych posiadają wyłącznie upoważnione osoby. Mimo dokładanych starań żaden system nie gwarantuje 100% bezpieczeństwa.
 
-## 14. Rezygnacja z gromadzenia danych
+## 13. Rezygnacja z gromadzenia danych i usunięcie konta
 
-Możesz w łatwy sposób zaprzestać gromadzenia wszelkich informacji przez Aplikację poprzez jej odinstalowanie przy użyciu standardowych mechanizmów dostępnych na Twoim urządzeniu lub w sklepie z aplikacjami.
+Możesz w każdej chwili trwale usunąć swoje konto wraz ze wszystkimi powiązanymi danymi bezpośrednio z poziomu Aplikacji, w ustawieniach konta. Usunięcie konta jest nieodwracalne i skutkuje trwałym usunięciem danych użytkownika z systemów Dostawcy Usług, z zastrzeżeniem danych, których przechowywanie jest wymagane przepisami prawa.
 
-## 15. Zmiany w Polityce Prywatności
+Samo odinstalowanie Aplikacji zatrzymuje dalsze gromadzenie danych, ale nie usuwa danych już zapisanych na koncie. w tym celu konieczne jest skorzystanie z funkcji usunięcia konta opisanej powyżej lub kontakt pod adresem hello@hopety.pl.
+
+## 14. Zmiany w Polityce Prywatności
 
 Niniejsza Polityka Prywatności może być okresowo aktualizowana. O wszelkich istotnych zmianach Dostawca Usług poinformuje poprzez aktualizację treści na niniejszej stronie oraz – w miarę możliwości – powiadomienie w Aplikacji. Zaleca się regularne zapoznawanie się z treścią Polityki Prywatności. Dalsze korzystanie z Aplikacji po opublikowaniu zmian jest równoznaczne z ich akceptacją.
 
-Niniejsza polityka prywatności obowiązuje od dnia **2026-04-16**.
+Niniejsza polityka prywatności obowiązuje od dnia **08.09.2026 r.**.
 
-## 16. Kontakt
+## 15. Kontakt
 
 W przypadku jakichkolwiek pytań dotyczących niniejszej Polityki Prywatności lub przetwarzania danych osobowych, prosimy o kontakt: hello@hopety.pl.
